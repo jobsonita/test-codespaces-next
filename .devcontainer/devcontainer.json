@@ -3,7 +3,8 @@
 	"image": "mcr.microsoft.com/devcontainers/universal:2",
 	"features": {
 	},
-	"forwardPorts": [3000],
+	"forwardPorts": ["${localEnv:PORT:3002}"],
+	"postCreateCommand": "npm install",
 	"customizations": {
 		"vscode": {
 			"settings": {
