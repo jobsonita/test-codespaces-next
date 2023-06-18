@@ -34,7 +34,6 @@
 				"material-icon-theme.languages.associations": {
 					"dotenv": "tune"
 				},
-				"workbench.colorTheme": "Omni",
 				"workbench.iconTheme": "material-icon-theme",
 				"[javascript]": {
 					"suggest.autoImports": true,
